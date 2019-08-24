@@ -15,9 +15,7 @@ export default function LazyImage({
 
     useEffect(() => {
         if(shouldLoad) {
-        // setTimeout(() => {
             setLoaded(true)
-        // }, 1000);
     }
     }, [shouldLoad])
 
